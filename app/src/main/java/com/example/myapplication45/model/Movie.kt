@@ -11,7 +11,7 @@ class Movie : Serializable {
     var image: String? = null
     var imageBanner: String? = null
     var url: String? = null
-    var rooms: List<*>? = null
+    var rooms: List<RoomFirebase?>? = null
     var categoryId: Long = 0
     var categoryName: String? = null
     var booked = 0

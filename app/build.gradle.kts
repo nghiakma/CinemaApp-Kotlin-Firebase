@@ -41,6 +41,13 @@ android {
 }
 
 dependencies {
+    // Paypal
+    implementation("com.paypal.sdk:paypal-android-sdk:2.16.0")
+    // QR code
+    implementation("com.google.zxing:core:3.2.1")
+    implementation("com.journeyapps:zxing-android-embedded:4.1.0")
+    implementation("org.greenrobot:eventbus:3.0.0")
+    implementation("com.google.android.exoplayer:exoplayer:2.7.2")
     implementation("me.relex:circleindicator:2.1.6")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.afollestad.material-dialogs:core:0.9.6.0")

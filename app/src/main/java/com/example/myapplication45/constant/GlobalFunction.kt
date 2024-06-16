@@ -4,9 +4,12 @@ import android.app.Activity
 import android.app.DatePickerDialog
 import android.content.Context
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.Color
 import android.os.Bundle
 import android.view.inputmethod.InputMethodManager
 import android.widget.DatePicker
+import android.widget.ImageView
 import com.example.myapplication45.activity.MainActivity
 import com.example.myapplication45.activity.MovieDetailActivity
 import com.example.myapplication45.activity.admin.AdminActivity
@@ -18,6 +21,9 @@ import com.example.myapplication45.model.Seat
 import com.example.myapplication45.model.TimeFirebase
 import com.example.myapplication45.prefs.DataStoreManager
 import com.example.myapplication45.util.StringUtil
+import com.google.zxing.BarcodeFormat
+import com.google.zxing.MultiFormatWriter
+import com.google.zxing.common.BitMatrix
 import java.text.Normalizer
 import java.util.Calendar
 import java.util.regex.Pattern
@@ -136,4 +142,28 @@ object GlobalFunction {
         return list
     }
 
+    fun gentQRCodeFromString(imageView: ImageView?, id: String?) {
+        if (imageView == null) {
+            return
+        }
+        val result: BitMatrix
+        try {
+            result = MultiFormatWriter().encode(id, BarcodeFormat.QR_CODE,
+                512, 512, null)
+            val w = result.width
+            val h = result.height
+            val pixels = IntArray(w * h)
+            for (y in 0 until h) {
+                val offset = y * w
+                for (x in 0 until w) {
+                    pixels[offset + x] = if (result[x, y]) Color.BLACK else Color.WHITE
+                }
+            }
+            val bitmap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888)
+            bitmap.setPixels(pixels, 0, w, 0, 0, w, h)
+            imageView.setImageBitmap(bitmap)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
 }
