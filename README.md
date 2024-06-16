@@ -3,7 +3,28 @@ Cinema Manager App is a versatile platform designed to streamline operations and
 
 ## Screenshots
 
-![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/af5b4e2e-d13c-4364-a38f-05edbfe4ec4e)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/3165f38f-5c6f-4bcf-905d-17c40d6a42d1)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/7207edc3-3755-4071-81c0-904fd094b9ff)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/6d37becf-1a25-4692-afb6-ad8eb8599610)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/33928dd5-e4cc-4ef9-9d1d-f42950a742ad)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/c8da456b-dba8-46f5-bd37-4f37532cc260)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/e0ba0ad4-24d9-4e17-92f8-674d363cb36e)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/6eb343d4-b2f9-4c3d-b532-cb6ced43d26d)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/5d31cf48-6784-4443-b5c7-289feec4fb61)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/f8747ba6-d57a-4d82-a23e-5353110f25c5)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/c460a350-a455-467e-88c6-48983242635d)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/e1c589a3-6f59-4791-a747-238708aa242d)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/fb1425a4-9d74-43fd-b622-3d7fd121fb27)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/53ca12b3-cfda-4f1c-830b-5dc38a9f6d1c)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/7ee8f4d3-a6ca-4ca1-86b7-38b6cc229bd8)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/d281924a-e256-4092-aac4-193ac656e73b)![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/d2abb628-98e4-497f-80b7-5ca425b68baa)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/af5b4e2e-d13c-4364-a38f-05edbfe4ec4e)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/3165f38f-5c6f-4bcf-905d-17c40d6a42d1)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/7207edc3-3755-4071-81c0-904fd094b9ff)
+
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/6d37becf-1a25-4692-afb6-ad8eb8599610)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/33928dd5-e4cc-4ef9-9d1d-f42950a742ad)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/c8da456b-dba8-46f5-bd37-4f37532cc260)
+
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/e0ba0ad4-24d9-4e17-92f8-674d363cb36e)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/6eb343d4-b2f9-4c3d-b532-cb6ced43d26d)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/5d31cf48-6784-4443-b5c7-289feec4fb61)
+
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/f8747ba6-d57a-4d82-a23e-5353110f25c5)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/c460a350-a455-467e-88c6-48983242635d)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/e1c589a3-6f59-4791-a747-238708aa242d)
+
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/fb1425a4-9d74-43fd-b622-3d7fd121fb27)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/53ca12b3-cfda-4f1c-830b-5dc38a9f6d1c)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/7ee8f4d3-a6ca-4ca1-86b7-38b6cc229bd8)
+
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/d281924a-e256-4092-aac4-193ac656e73b)
+![image](https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/d2abb628-98e4-497f-80b7-5ca425b68baa)
 
 ## Features ✨️
 
