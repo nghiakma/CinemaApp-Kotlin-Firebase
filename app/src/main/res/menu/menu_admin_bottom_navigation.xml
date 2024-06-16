@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_admin_category"
+        android:icon="@drawable/ic_category"
+        android:title="@string/nav_admin_category" />
+
+    <item
+        android:id="@+id/nav_admin_food_drink"
+        android:icon="@drawable/ic_food_drink"
+        android:title="@string/nav_admin_food_drink" />
+
+    <item
+        android:id="@+id/nav_admin_movie"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/nav_admin_movie" />
+
+    <item
+        android:id="@+id/nav_admin_booking"
+        android:icon="@drawable/ic_nav_booking"
+        android:title="@string/nav_admin_booking" />
+
+    <item
+        android:id="@+id/nav_admin_manage"
+        android:icon="@drawable/ic_manage"
+        android:title="@string/nav_admin_manage" />
+
+</menu>

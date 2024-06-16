@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/define_dimen_12"
+        android:src="@drawable/ic_back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/define_dimen_18">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_food_title"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_xnormal"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_30"
+            android:background="@drawable/bg_white_corner_6_border_gray"
+            android:hint="@string/hint_name"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:padding="@dimen/define_dimen_12"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_small" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_16"
+            android:background="@drawable/bg_white_corner_6_border_gray"
+            android:padding="@dimen/define_dimen_12">
+
+            <EditText
+                android:id="@+id/edt_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/define_dimen_10"
+                android:layout_toStartOf="@+id/tv_currency"
+                android:background="@color/white"
+                android:hint="@string/hint_price"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tv_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/currency"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/edt_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_16"
+            android:background="@drawable/bg_white_corner_6_border_gray"
+            android:hint="@string/hint_quantity"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:padding="@dimen/define_dimen_12"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_small" />
+
+        <Button
+            android:id="@+id/btn_add_or_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_40"
+            android:background="@drawable/bg_main_corner_8"
+            android:text="@string/action_add"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small" />
+
+    </LinearLayout>
+</RelativeLayout>

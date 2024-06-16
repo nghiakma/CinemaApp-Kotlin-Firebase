@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/define_dimen_12"
+        android:src="@drawable/ic_back"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/define_dimen_18">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_category_title"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_xnormal"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_30"
+            android:background="@drawable/bg_white_corner_6_border_gray"
+            android:hint="@string/hint_name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="@dimen/define_dimen_12"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="#757575"
+            android:textSize="@dimen/text_size_small"
+            tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/edt_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_16"
+            android:background="@drawable/bg_white_corner_6_border_gray"
+            android:hint="@string/hint_image"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="@dimen/define_dimen_12"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="#757575"
+            android:textSize="@dimen/text_size_small"
+            tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/btn_add_or_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_40"
+            android:background="@drawable/bg_main_corner_8"
+            android:text="@string/action_add"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+</RelativeLayout>
