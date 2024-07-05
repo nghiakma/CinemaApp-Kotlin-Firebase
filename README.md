@@ -13,6 +13,24 @@ Cinema Manager App is a versatile platform designed to streamline operations and
 <img alt="" src="https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/d281924a-e256-4092-aac4-193ac656e73b" width="32%">
 <img alt="" src="https://github.com/nghiakma/CinemaApp-Kotlin-Firebase/assets/98259551/d2abb628-98e4-497f-80b7-5ca425b68baa" width="32%">
 
+## Tech stack, Open-source libraries & Project Architecture ✨️
+
+- MVC (Model - View- Controller)
+  
+- Kotlin
+
+- Realtime Database, Authentication Firebase
+  
+- ExoPlayer
+  
+- Paypal SDK
+  
+- zxing
+  
+- Glide
+  
+- FlowLayout
+
 ## Features ✨️
 
 ✨️ There is an account management module with two distinct roles: Admin and User. Features include login, registration, forgot password, change password, display user profile, and logout.
